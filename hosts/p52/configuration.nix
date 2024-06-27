@@ -69,6 +69,7 @@
       "ozerova" = import ./home.nix;
     };
   };
+  home-manager.backupFileExtension = "backup";
 
   users.defaultUserShell = pkgs.zsh;
   environment.shells = with pkgs; [ zsh ];
