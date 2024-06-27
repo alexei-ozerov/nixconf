@@ -38,7 +38,9 @@
       '';
 
       shellAliases = {
-        ll = "ls -la";
+        less = "/home/ozerova/.cargo/bin/bat";
+        ls = "/home/ozerova/.cargo/bin/exa";
+        ll = "/home/ozerova/.cargo/bin/exa -l";
         vim = "nvim";
 	update = "sudo nixos-rebuild switch --flake /home/ozerova/utils/nixconf/#default";
       };
