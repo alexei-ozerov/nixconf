@@ -21,12 +21,13 @@
         kdePackages.kate
         neovim
         neofetch
+	pulseaudio
+	alsa-lib
         emacs
         zsh
         oh-my-zsh
         wget
         curl
-        ragnarwm
         git
         gnumake
         gcc
@@ -42,6 +43,10 @@
 	cargo
 	lshw
 	hyprpaper
+	raylib
+	clang
+	ccls
+	jetbrains-mono
       ];
     };
   };
