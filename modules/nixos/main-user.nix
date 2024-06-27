@@ -40,6 +40,8 @@
 	gleam
 	go
 	cargo
+	lshw
+	hyprpaper
       ];
     };
   };
