@@ -39,7 +39,8 @@
 
       shellAliases = {
         ll = "ls -la";
-        update = "sudo nixos-rebuild switch --flake /home/ozerova/utils/nixconf/#default";
+        vim = "nvim";
+	update = "sudo nixos-rebuild switch --flake /home/ozerova/utils/nixconf/#default";
       };
 
       oh-my-zsh = {
