@@ -73,7 +73,7 @@
   users.defaultUserShell = pkgs.zsh;
   environment.shells = with pkgs; [ zsh ];
 
-  # Install firefox.
+  programs.zsh.enable = true;
   programs.firefox.enable = true;
   programs.hyprland = {
     enable = true;
